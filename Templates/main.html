@@ -1,0 +1,145 @@
+{% extends 'index.html' %}
+<!-- ..............body..................... -->
+{% block body %}
+<div  id="mainbody">
+    <p id="p1">We only<i> teach</i></p><br>
+    <p id="p2">what we are really</p><br>
+    <p id="p3">really <i>good </i>at.</p>
+</div>
+<div id="button">
+    <button id="course">Check Courses-Make An Impact</button>
+</div>
+
+
+<div id="side-matter">
+    <p  id="p4">Get ready to <i>accelerate</i>  your</p>
+    <p id="p5"><i>career</i>with customized courses</p>
+    <p id="p6">and leave your mark in th tech</p>
+    <p id="p7">industry</p>
+</div>
+
+<div id="subscribe">
+    <div id="sub1"><h3 class="Subs">29k+</h3>
+        <p class="Subs">Student Thoughts</p>
+    </div>
+    <div id="sub2"><h3 class="Subs">59+</h3>
+        <p class="Subs">Instructors</p></div>
+    <div id="sub3"><h3 class="Subs">669k+</h3>
+        <p class="Subs">Youtube Subs</p></div>
+</div>
+
+<div id="content">
+    <p class="para">we do whatever it takes to help you</p>
+    <p class="para" id="second_para">understand the concepts .</p>
+</div>
+
+<iframe frameborder="0" src="https://www.youtube.com/embed/60SRAWmMXyc" id="youtube_frame"></iframe>
+
+<div id="explore_btn">
+    <button>Explore free learning</button>
+</div>
+{% load static %}
+<pre id="course_offer">Course Offered.</pre>
+<div id="frames_course">
+    <div id="division_0">
+        <img src="{% static 'course1.webp' %}" alt="" srcset="">
+        <p id="pa1">FrontEnd Domination:Create anything Anything with code</p>
+        <button id="button"> HINDI</button>
+        <p class="Discount">Limited Time Discount</p>
+        <p class="price1">₹4999 </p>
+        <strike class="price2">₹9999</strike>
+        <button id="off">50% OFF</button>
+        <button id="viewdetails1">View Details</button>
+    </div>
+    <div id="division_1">
+        <img src="{% static 'course2.webp' %}" alt="" srcset="">
+        <p id="pa1">BackEnd Domination:Create Efficient back end</p>
+        <button id="button"> HINGLISH</button>
+        <p class="Discount">Limited Time Discount</p>
+        <p class="price1">₹5999 </p>
+        <strike class="price2">₹1199</strike>
+        <button id="off">50% OFF</button>
+        <button id="viewdetails1">View Details</button>
+    </div>
+    <div id="division_2">
+        <img src="{% static 'course3.webp' %}" alt="" srcset="">
+        <p id="pa1">Apptitude & Reasoning & logics for Camplacements</p>
+        <button id="button"> HINGLISH</button>
+        <p class="Discount">Limited Time Discount</p>
+        <p class="price1">₹999 </p>
+        <strike class="price2">₹1500</strike>
+        <button id="off">50% OFF</button>
+        <button id="viewdetails1">View Details</button>
+    </div>
+    <div id="division_3">
+        <img src="{% static 'course4.webp' %}" alt="" srcset="">
+        <p id="pa1">Java & Data Structures And Algorithms Advance</p>
+        <button id="button"> HINDI</button>
+        <p class="Discount">Limited Time Discount</p>
+        <p class="price1">₹4999 </p>
+        <strike class="price2">₹9999</strike>
+        <button id="off">50% OFF</button>
+        <button id="viewdetails1">View Details</button>
+    </div>
+    <div id="division_4">
+        <img src="{% static 'course5.webp' %}" alt="" srcset="">
+        <p id="pa1">Java & Data Structures And Algorithms Advance</p>
+        <button id="button"> HINDI</button>
+        <p class="Discount">Limited Time Discount</p>
+        <p class="price1">₹4999 </p>
+        <strike class="price2">₹9999</strike>
+        <button id="off">50% OFF</button>
+        <button id="viewdetails1">View Details</button>
+    </div>
+</div>
+{% load static %}
+<div id="promotions">
+    <div id="promo">
+    <p>Top companies our Students working with</p>
+    </div>
+        <img src="{% static 'promotion/1.webp' %}" alt="">
+    </div>
+<button id="explore_course">Explore Course</button>
+
+<div id="copyright">
+    <div id="contact">
+        <img src="{% static 'logo.webp' %}" alt="">
+        <p>lets connect with our socials</p>
+    </div>
+    <div id="company">
+        <h3>COMPANY</h3>
+        <a href="#">About us</a><br>
+        <a href="#">Support</a><br>
+        <a href="#">Privacy Policy</a><br>
+        <a href="#">Terms and Conditions</a><br>
+        <a href="#">Pricing and Refund</a><br>
+        <a href="#">Hire From Us</a><br>
+        <a href="#">Bug Bounty</a>
+    </div>
+    <div id="community">
+        <h3>COMMUNITY</h3>
+        <a href="#">Inertia</a><br>
+        <a href="#">Discord</a><br>
+    </div>
+    <div id="getintouch">
+        <h3>Get In Touch</h3>
+        <a href="#">+91*********</a><br>
+        <a href="#">+91*********</a><br>
+        <a href="#">hello@codingarea.com</a><br>
+    </div>
+</div>
+<footer>
+    Copyright@2024CodingSchool Pvt.Ltd.
+</footer>
+{% endblock body %}
+<!-- ........title.............. -->
+{% block title %}
+<title>Coding school</title>
+{% endblock title %}
+
+<!-- ...............css.................. -->
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'main.css' %}">
+{% endblock css %}

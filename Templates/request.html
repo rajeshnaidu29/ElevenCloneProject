@@ -1,0 +1,38 @@
+{% extends 'index.html' %}
+
+{% block title %}
+<title>Request
+</title>
+{% endblock title %}
+<!-- ......................body.............. -->
+
+{% block body %}
+{% load static %}
+<div id="request" onclick="span()">
+    <span id="close">+</span>
+    <p id="p1">Request a callback</p>
+    <p id="p2">fill in the form to callback from our team</p>
+    <form action="">
+        <label for="">Name</label><br>
+        <input type="text" name="" id="" placeholder="Enter Name"><br><br>
+        <label for="">PhoneNumber</label><br>
+        <input type="text" name="" id="" placeholder="PhoneNumber"><br><br>
+        <label for="">Select Date and Time <img src="{% static 'calender.png' %}" alt=""></label><br>
+        <input type="datetime-local" placeholder="Enter date& time"><br><br>
+        <button>submit</button>
+    </form>
+</div>
+
+{% endblock body %}
+<!--.........................css......................... -->
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'request.css' %}">
+{%  endblock css %}
+
+
+{% block js %}
+<script src="{% static 'request.js' %}"></script>
+{% endblock js %}
+

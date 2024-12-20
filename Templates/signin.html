@@ -1,0 +1,45 @@
+{% extends 'index.html' %}
+{% load static %}
+<!-- ......title............ -->
+{% block title %}
+<title>signin page</title>
+{% endblock title %}
+
+<!-- ...........body............. -->
+
+{% block body %}
+<div id="login_form">
+    <form action="">
+        <h2 class="inputs">Sign in</h2>
+        <u class="inputs" id="phone_btn">phone</u>
+        <u class="inputs" id="gmail_btn">Email</u><br><br>
+        <label for="" class="mail">Email Adress</label><br>
+        <input type="text" name="" id="email" class="inputs" placeholder="Enter EmailId"><br><br>
+        <label for="" class="mail">Password</label><br>
+        <input type="text" name="" id="password" class="inputs" placeholder="EnterPassword"><br><br>
+        <label for="">Mobile number *</label><br>
+        <input type="text" name="" id="phone" class="inputs" placeholder="phonenumber">
+    </form>
+    <fieldset><legend>or</legend></fieldset>
+    <img src="{% static 'login.png' %}" alt="">
+    <button id="google" class="nextpage">Continue With Google</button><br><br>
+    <img src="{% static 'create.png' %}" alt="">
+    <button id="create" class="nextpage">Create a New Account</button>
+</div>
+
+{% endblock body %}
+
+
+<!-- ................css............... -->
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'signin.css' %}">
+{% endblock css %}
+
+<!-- ..................js.............. -->
+
+{% block js %}
+
+<script src="{% static 'signin.js' %}"></script>
+{% endblock js %}

@@ -1,0 +1,44 @@
+{% extends 'index.html' %}
+{% load static %}
+
+{% block title %}
+<link rel="icon" href="{% static 'logo.webp' %}">
+<title>Bootcamp</title>
+{% endblock title %}
+
+<!-- ................................. -->
+
+<!-- ...........body......................... -->
+
+{% block body %}
+{% load static %}
+<div id="data">
+    <div id="text">
+        <p>6 months In-House<br>Bootcamp programme-<br>kodr</p><br>
+        <button>Starts on:11 nov 2024</button>
+        <button>placement Assistance <img src="{% static 'bluetick.png' %}" alt=""></button>
+        <pre>Price<span style="color:rgb(45, 210, 111) ;">₹ 59999</span><sub style="font-size: 14px;">[50000 + 18% Gst]</sub></pre>
+        <button id="seats" disabled>Seats Are Full</button>
+    </div>
+    <div id="video">
+        <iframe frameborder="0" src="https://www.youtube.com/embed/60SRAWmMXyc"></iframe>"
+    </div>
+</div>
+<div id="consistancy">
+    <pre class="consistancy">we believe in ,<br><span style="color: rgb(89, 215, 215);">Consistancy</span>.No Shortcuts.</pre>
+</div>
+<div id="buttons">
+    <button  class="subjects">MERN Stack</button>
+    <button class="subjects">Data Structure &Algorithms</button>
+    <button class="subjects">DBMS& SQL</button><br><br>
+    <button class="subjects">CORE CS Subjects</button>
+    <button class="subjects">Placement Assistance</button>
+</div>
+{% endblock body %}
+
+<!-- .......css........................ -->
+
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'bootcamp.css' %}">
+{% endblock css %}

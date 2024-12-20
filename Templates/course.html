@@ -1,0 +1,107 @@
+{% extends 'index.html' %}
+
+
+{% block title %}
+<title>courses</title>
+{% endblock title %}
+<!-- ....................body............ -->
+{% block body %}
+{% load static %}
+<div id="course_content">
+    <p>We are not a <span style="color: rgb(103, 223, 223);">Course</span></p>
+    <p style="color: rgb(103, 223, 223);">Factory</p>
+    <i>we focus on courses that really help</i>
+    <span style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; position: relative; top: 55%; font-size: 20px;">course which do work</span>
+</div>
+<div id="frames_course">
+    <div id="division_0">
+        <img src="{% static 'course1.webp' %}" alt="" srcset="">
+        <p id="pa1">FrontEnd Domination:Create anything Anything with code</p>
+        <button id="button"> HINDI</button>
+        <p class="Discount">Limited Time Discount</p>
+        <p class="price1">₹4999 </p>
+        <strike class="price2">₹9999</strike>
+        <button id="off">50% OFF</button>
+        <button id="viewdetails1">View Details</button>
+    </div>
+    <div id="division_1">
+        <img src="{% static 'course2.webp' %}" alt="" srcset="">
+        <p id="pa1">BackEnd Domination:Create Efficient back end</p>
+        <button id="button"> HINGLISH</button>
+        <p class="Discount">Limited Time Discount</p>
+        <p class="price1">₹5999 </p>
+        <strike class="price2">₹1199</strike>
+        <button id="off">50% OFF</button>
+        <button id="viewdetails1">View Details</button>
+    </div>
+    <div id="division_2">
+        <img src="{% static 'course3.webp' %}" alt="" srcset="">
+        <p id="pa1">Apptitude & Reasoning & logics for Camplacements</p>
+        <button id="button"> HINGLISH</button>
+        <p class="Discount">Limited Time Discount</p>
+        <p class="price1">₹999 </p>
+        <strike class="price2">₹1500</strike>
+        <button id="off">50% OFF</button>
+        <button id="viewdetails1">View Details</button>
+    </div>
+    <div id="division_3">
+        <img src="{% static 'course4.webp' %}" alt="" srcset="">
+        <p id="pa1">Java & Data Structures And Algorithms Advance</p>
+        <button id="button"> HINDI</button>
+        <p class="Discount">Limited Time Discount</p>
+        <p class="price1">₹4999 </p>
+        <strike class="price2">₹9999</strike>
+        <button id="off">50% OFF</button>
+        <button id="viewdetails1">View Details</button>
+    </div>
+    <div id="division_4">
+        <img src="{% static 'course5.webp' %}" alt="" srcset="">
+        <p id="pa1">Java & Data Structures And Algorithms Advance</p>
+        <button id="button"> HINDI</button>
+        <p class="Discount">Limited Time Discount</p>
+        <p class="price1">₹4999 </p>
+        <strike class="price2">₹9999</strike>
+        <button id="off">50% OFF</button>
+        <button id="viewdetails1">View Details</button>
+    </div>
+</div>
+<div id="copyright">
+    <div id="contact">
+        <img src="{% static 'logo.webp' %}" alt="">
+        <p>lets connect with our socials</p>
+    </div>
+    <div id="company">
+        <h3>COMPANY</h3>
+        <a href="#">About us</a><br>
+        <a href="#">Support</a><br>
+        <a href="#">Privacy Policy</a><br>
+        <a href="#">Terms and Conditions</a><br>
+        <a href="#">Pricing and Refund</a><br>
+        <a href="#">Hire From Us</a><br>
+        <a href="#">Bug Bounty</a>
+    </div>
+    <div id="community">
+        <h3>COMMUNITY</h3>
+        <a href="#">Inertia</a><br>
+        <a href="#">Discord</a><br>
+    </div>
+    <div id="getintouch">
+        <h3>Get In Touch</h3>
+        <a href="#">+91*********</a><br>
+        <a href="#">+91*********</a><br>
+        <a href="#">hello@codingarea.com</a><br>
+    </div>
+</div>
+<footer>
+    Copyright@2024CodingSchool Pvt.Ltd.
+</footer>
+{% endblock body %}
+
+<!-- .............................................................. -->
+
+{% load static %}
+
+<!-- ...........css.................. -->
+{% block css %}
+<link rel="stylesheet" href="{% static 'course.css' %}">
+{% endblock css %}
