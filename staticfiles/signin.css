@@ -1,0 +1,101 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#login_form{
+    position: absolute;
+    top: 85px;
+    left: 510px;
+}
+#login_form h2,#login_form u,label{
+    color: rgb(252, 248, 248);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+    
+}
+#login_form input{
+    border-radius: 5px;
+    outline: none;
+    padding: 7px 110px;
+    border-bottom: 1px soild;
+}
+label,input{
+    position: relative;
+    top: 50px;
+    font-size: 13px;
+    filter: brightness(70%);
+    background-color: black;
+    color: aliceblue;
+
+}
+u{
+    position: relative;
+    top: 30px;
+
+}
+input::placeholder{
+    position: relative;
+    left: -50px;
+}
+#login_form h2{
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    font-weight: lighter;
+}
+
+#email,#password{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(188, 181, 181);
+    position: relative;
+    top: 30px;
+}
+.mail{
+    position: relative;
+    top: 20px;
+}
+legend{
+    color: white;
+    text-align: center;
+}
+fieldset{
+    border: none;
+    border-top: 1px solid white;
+    width: 400px;
+    position: relative;
+    top: 85px;
+    left: -10px;
+    filter: brightness(40%);
+}
+#login_form u:visited{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+button{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: -20px;
+    padding: 15px 120px;
+    border-radius: 30px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 17px;
+    filter: brightness(80%);
+    cursor: pointer;
+}
+img{
+    width: 20px;
+    position: relative;
+    left: 70px;
+    top: 105px;
+}
+#google,#create{
+    margin-left: -20px;
+}
